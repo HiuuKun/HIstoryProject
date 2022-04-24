@@ -1112,7 +1112,9 @@ a.back-to-top:hover {
 }
 
 .entry-title a:focus,
-.entry-title a:hover {}
+.entry-title a:hover {
+    color: #000
+}
 
 .entry-featured {
     margin-bottom: 24px
@@ -1973,10 +1975,10 @@ li.comment .comment-form > p {
 }
 
 .footer-testimonial .entry-thumbnail {
-    /*     position: absolute;
+    position: absolute;
     top: 0;
     left: 0;
-    overflow: hidden */
+    overflow: hidden 
 }
 
 @media (min-width:576px) {

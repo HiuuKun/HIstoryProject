@@ -269,7 +269,9 @@ section#banner .section-title {
 
 section#banner p.section-subtitle {
     margin-bottom: 42px;
-    color: rgba(0, 0, 0, 0.6);
+    color: rgba(255, 255, 255, 0.953);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 23px;
 }
 
 .section-header .section-title,
@@ -285,7 +287,7 @@ section#banner .section-header {
 }
 
 section#introduce {
-    padding: 119px 0 137px;
+    padding: 89px 0 137px;
     position: relative;
 }
 
@@ -733,7 +735,7 @@ section#about .container .row {
 }
 
 section#blog {
-    padding: 96px 0 107px !important;
+    padding: 40px 0 57px !important;
     background: #fbf4eb;
 }
 
@@ -824,8 +826,8 @@ section#menu .menu-grid-col button.entry-title:hover a {
 
 section#menu {
     background: #fbf4eb;
-    padding-top: 96px;
-    padding-bottom: 143px;
+    padding-top: 6px;
+    padding-bottom: 43px;
 }
 
 section#menu .section-header {
@@ -1755,7 +1757,7 @@ span.your-name span.wpcf7-not-valid-tip {
     }
 
 
-    / IE11 */
+
 }
 
 @media (max-width: 1599px) {
@@ -2372,9 +2374,9 @@ span.your-name span.wpcf7-not-valid-tip {
     }
 
     .meetchef-grid-col .entry-body p {
-        font-size: 16px;
-        margin: 0 auto 20px;
-        line-height: 24px;
+        font-size: 20px;
+        margin: 0 auto 10px;
+        line-height: 23px;
     }
 
     section#contact .bg-contact .section-bigtitle h1 {
@@ -3312,7 +3314,7 @@ span.your-name span.wpcf7-not-valid-tip {
     .footer-testimonial.has-post-thumbnail:first-child .entry-body,
     .footer-testimonial.has-post-thumbnail:last-child .entry-body {
         padding: 167px 15px 30px 15px;
-        margin: 0 15px 0 15px;
+        margin: 0 10px 0 10px;
     }
 
     .footer-testimonial.has-post-thumbnail .entry-summary {
